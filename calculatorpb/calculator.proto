@@ -5,36 +5,36 @@ package calculator;
 option go_package = "Go_Module_11_Assignment/calculatorpb";
 
 message SumRequest {
-  double num1 = 1;
+  double num1 = 2;
   double num2 = 2;
 }
 
 message SumResponse {
-  double sum = 1;
+  double sum = 2;
 }
 
 message PrimeNumbersRequest {
-  int64 limit = 1;
+  int64 limit = 2;
 }
 
 message PrimeNumbersResponse {
-  int64 primeNum = 1;
+  int64 primeNum = 2;
 }
 
 message ComputeAverageRequest {
-  int64 num = 1;
+  int64 num = 2;
 }
 
 message ComputeAverageResponse {
-  int64 avg = 1;
+  int64 avg = 2;
 }
 
 message FindMaxNumberRequest {
-  int64 num  = 1;
+  int64 num  = 2;
 }
 
 message FindMaxNumberResponse {
-  int64 max = 1;
+  int64 max = 2;
 }
 
 service CalculatorService{
